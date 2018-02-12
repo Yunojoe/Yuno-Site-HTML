@@ -1,9 +1,5 @@
 body{
-     font-family: Camphor, Open Sans, Segoe UI, sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-    
+overflow-x: hidden;
 }
 
 header {
@@ -39,10 +35,17 @@ section.tablets{
     background: #f3f3f3;
     border-radius: 20px;
     position: relative;
--webkit-box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
--moz-box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
-box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
+    -webkit-box-shadow: inset 0px -1px 50px 8px rgba(0,0,0,0.14);
+    -moz-box-shadow: inset 0px -1px 50px 8px rgba(0,0,0,0.14);
+    box-shadow: inset 0px -1px 50px 8px rgba(0,0,0,0.14);
+}
 
+.tablet img{
+    width:100%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 20px;
 }
 .phone{
     display: flex;
@@ -53,9 +56,9 @@ box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
     left:-150px;
     border-radius: 20px;
     background: #f3fef2;
-    -webkit-box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
--moz-box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
-box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
+    -webkit-box-shadow: inset 0px -1px 50px 8px rgba(0,0,0,0.14);
+-moz-box-shadow: inset 0px -1px 50px 8px rgba(0,0,0,0.14);
+box-shadow: inset 0px -1px 50px 8px rgba(0,0,0,0.14);
 }
 
 section.standard{
@@ -93,9 +96,12 @@ section.standard{
 header .stripes {
 	display: grid;
 	grid: repeat(5, 150px) / repeat(10, 1fr);
-	background: #1A2980;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #314755;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 
 	position: absolute;
 	width: 100%;
