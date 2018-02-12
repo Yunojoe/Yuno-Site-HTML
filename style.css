@@ -7,6 +7,12 @@ header {
 	min-height: 750px
 }
 
+.bg-blue{
+    background:#141726;
+    
+}
+
+
 section.tablets{
     width: 800px;
     height:800px;
@@ -20,21 +26,28 @@ section.tablets{
 
 .tablet{
     display: flex;
-    height: 1000px;
+    height: 1100px;
     width:900px;
     background: #f3f3f3;
     border-radius: 20px;
     position: relative;
+-webkit-box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
+-moz-box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
+box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
+
 }
 .phone{
     display: flex;
     width:300px;
-    height:600px;
+    height:650px;
     position: absolute;
     top:30%;
     left:-150px;
     border-radius: 20px;
     background: #f3fef2;
+    -webkit-box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
+-moz-box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
+box-shadow: inset 0px -1px 7px 8px rgba(0,0,0,0.14);
 }
 
 section.standard{
