@@ -28,6 +28,17 @@ section.tablets{
     flex-wrap: wrap;
 }
 
+section.tablets-left{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    transform: rotate(-8deg);
+    transform-origin: 100% 0;
+    top: 1400px;
+    left: -9%;
+    flex-wrap: wrap;
+}
+
 .tablet{
     display: flex;
     height: 1100px;
@@ -60,6 +71,19 @@ section.tablets{
 -moz-box-shadow: inset 0px -1px 50px 8px rgba(0,0,0,0.14);
 box-shadow: inset 0px -1px 50px 8px rgba(0,0,0,0.14);
 }
+
+
+section.tablets-left .phone{
+    top:30%;
+    right:-170px;
+    left:initial;
+}
+
+section.tablets-left .tablet{
+    height: 700px;
+}
+
+
 
 section.standard{
     min-height: 750px;
