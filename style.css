@@ -118,13 +118,34 @@ section.tablets-left .tablet{
     height: 700px;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.purple-text{
+    color: purple;
+}
+
+.orange-text{
+    color: orange;
+}
+.green-text{
+    color: green;
+}
 
 
 section.standard{
     min-height: 750px;
 }
 
+.thick{
+    font-size
+}
 
+.faded-text{
+    opacity: 0.5;
+}
 section.shadow {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
