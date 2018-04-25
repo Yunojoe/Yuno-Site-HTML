@@ -12,7 +12,7 @@ header {
 }
 
 .bg-blue{
-    background:#141726;
+    background:;
     
 }
 
@@ -24,7 +24,7 @@ section.tablets{
     transform: rotate(-8deg);
     transform-origin: 100% 0;
     top:120px;
-    left:55%;
+    left:60%;
     flex-wrap: wrap;
 }
 
@@ -140,7 +140,7 @@ section.standard{
 }
 
 .thick{
-    font-size
+    font-size;
 }
 
 .faded-text{
@@ -182,13 +182,8 @@ header .stripes {
 	display: grid;
 	grid: repeat(5, 150px) / repeat(10, 1fr);
 	background: #2980b9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
-
-
+background: -webkit-linear-gradient(to right, #0, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0068b0, #72edff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	position: absolute;
 	width: 100%;
 }
