@@ -13,7 +13,7 @@ overflow-x: hidden;
     src: url(vendor/fonts/bodyfont.woff);
 }
 
-.nav{
+.navbar{
     transition: all 2s ease;
     
 }
