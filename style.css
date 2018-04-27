@@ -18,6 +18,8 @@ overflow-x: hidden;
     
 }
 
+.glass{background: rgba(255, 255, 255, 0.1);}
+
 header {
 	position: relative;
 	min-height: 750px
@@ -40,7 +42,9 @@ h1,h2,h3,h4{
 .card-shadow {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 0px 10px rgba(0,0,0,0.18);
 }
-
+#card-content img{
+    max-width: 100px;
+}
 .bar-shadow{
     box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 15px 20px rgba(0,0,0,0.10);
     
@@ -145,7 +149,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e16a87', end
 
 
 }
-.card-content{
+#card-content{
     height: 100%;
     vertical-align: middle;
 }
@@ -259,7 +263,7 @@ header .stripes canvas {
 #stars:after {
   content: " ";
   position: absolute;
-  top: 750px;
+  top: 1500px;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -276,7 +280,7 @@ header .stripes canvas {
 #stars2:after {
   content: " ";
   position: absolute;
-  top: 750pxx;
+  top: 1500pxx;
   width: 2px;
   height: 2px;
   background: transparent;
@@ -293,7 +297,7 @@ header .stripes canvas {
 #stars3:after {
   content: " ";
   position: absolute;
-  top: 750px;
+  top: 1500px;
   width: 3px;
   height: 3px;
   background: transparent;
@@ -305,6 +309,6 @@ header .stripes canvas {
     transform: translateY(0px);
   }
   to {
-    transform: translateY(-750px);
+    transform: translateY(-1500px);
   }
 }
