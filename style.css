@@ -250,7 +250,15 @@ header .stripes canvas {
 	height: 100%;
 }
 .btn-cta {
-	background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);
+    background-color: #EB6566 !IMPORTANT;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0px;
 }
 
 #stars {
@@ -311,4 +319,34 @@ header .stripes canvas {
   to {
     transform: translateY(-1500px);
   }
+}
+
+section.standard_post {
+    background-color: #f6f7f7;
+    align-content: center;
+}
+
+.post_content {
+    background-color: white;
+    align-content: center;
+    padding-left: 
+}
+
+section.post_header {
+    padding: 100px;
+    background-image: image(hosting20%image.jpg)
+}
+
+.author {
+    margin-bottom: -225px;
+    position: relative;
+    color: white;
+}
+
+.header_post {
+    min-height: 0px;
+}
+
+.contact_form {
+    background-color: #ecedf0;
 }
