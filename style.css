@@ -128,6 +128,7 @@ background: -moz-linear-gradient(45deg, #7061ab 0%, #a370b1 63%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg, #7061ab 0%,#a370b1 63%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(45deg, #7061ab 0%,#a370b1 63%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7061ab', endColorstr='#a370b1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+margin-top: 10px;
 }
 
 .cta-card.green{
@@ -136,6 +137,7 @@ background: -moz-linear-gradient(45deg, #48bac4 0%, #55c1ac 67%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg, #48bac4 0%,#55c1ac 67%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(45deg, #48bac4 0%,#55c1ac 67%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48bac4', endColorstr='#55c1ac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+margin-top: 10px;
 
 }
 
@@ -145,6 +147,7 @@ background: -moz-linear-gradient(45deg, #e16a87 0%, #fbb689 67%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg, #e16a87 0%,#fbb689 67%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(45deg, #e16a87 0%,#fbb689 67%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e16a87', endColorstr='#fbb689',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+margin-top: 10px;
 
 
 
@@ -171,14 +174,17 @@ section.tablets-left .tablet{
 }
 
 .purple-text{
-    color: purple;
+        color: #434343;
+    font-size: 25px;
 }
 
 .orange-text{
-    color: #e16a87;
+        color: #434343;
+    font-size: 25px;
 }
 .green-text{
-    color:;
+    color: #434343;
+    font-size: 25px;
 }
 
 
@@ -238,6 +244,8 @@ background: linear-gradient(to right, #0068b0, #72edff); /* W3C, IE 10+/ Edge, F
     transform: skewY(-8deg);
 	transform-origin: 0;
 }
+
+
 header .stripes .col {
 	grid-area: 6;
 	grid-column: span 12;
@@ -250,7 +258,7 @@ header .stripes canvas {
 	height: 100%;
 }
 .btn-cta {
-    background-color: #EB6566 !IMPORTANT;
+    background-color: #EB6566;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -259,6 +267,11 @@ header .stripes canvas {
     display: inline-block;
     font-size: 16px;
     border-radius: 0px;
+}
+
+.btn-cta:hover {
+    color: white;
+    background-color: #7061ab;
 }
 
 #stars {
@@ -349,4 +362,300 @@ section.post_header {
 
 .contact_form {
     background-color: #ecedf0;
+}
+
+/*Pricing table*/
+* {
+    box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .cheader {
+    background: #e16a87; /* Old browsers */
+background: -moz-linear-gradient(45deg, #e16a87 0%, #fbb689 67%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #e16a87 0%,#fbb689 67%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #e16a87 0%,#fbb689 67%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e16a87', endColorstr='#fbb689',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: white;
+    font-size: 25px;
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff
+}
+
+/* Grey list item */
+.price .grey {
+    background-color: rgb(41, 128, 185);
+    color: white;
+    font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.purple-name {
+    background: #7061ab; /* Old browsers */
+background: -moz-linear-gradient(45deg, #7061ab 0%, #a370b1 63%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #7061ab 0%,#a370b1 63%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #7061ab 0%,#a370b1 63%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7061ab', endColorstr='#a370b1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    box-shadow: 1px 1px 10px;
+}
+
+.green-name {
+    background: #48bac4; /* Old browsers */
+background: -moz-linear-gradient(45deg, #48bac4 0%, #55c1ac 67%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #48bac4 0%,#55c1ac 67%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #48bac4 0%,#55c1ac 67%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48bac4', endColorstr='#55c1ac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    box-shadow: 1px 1px 10px;
+}
+
+.orange-name {
+    background: #e16a87; /* Old browsers */
+background: -moz-linear-gradient(45deg, #e16a87 0%, #fbb689 67%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #e16a87 0%,#fbb689 67%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #e16a87 0%,#fbb689 67%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e16a87', endColorstr='#fbb689',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    box-shadow: 1px 1px 10px;
+}
+
+.white-box {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    height: auto;
+}
+
+.shadow {
+    box-shadow: 1px 1px 10px;
+}
+
+.team-pic {
+    margin-top: -150px;
+}
+
+.block-space {
+    padding-top: 125px;
+}
+
+.team1 {
+    max-width: 120%
+}
+
+.blue-name {
+    background-color: #1567BB;
+    box-shadow: 1px 1px 10px;
+}
+
+/* ------------ Landing page header ----------- */
+
+.stripes_alt {
+    background-image:url(image/winch_cath_02.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+    position: absolute;
+}
+
+.angle .stripes_alt {
+	display: grid;
+	grid: repeat(5, 150px) / repeat(10, 1fr);
+	background:#f3f3f3;
+	/* fallback for old browsers */
+	position: absolute;
+	width: 100%;
+}
+
+.angle .stripes_alt .col {
+	grid-area: 5;
+	grid-column: span 12;
+	background: rgba(255, 255, 255, 0.1);
+    
+}
+.angle .stripes_alt {
+	transform: skewY(-8deg);
+	transform-origin: 0;
+}
+
+.angle .stripes_alt canvas {
+	height: 100%;
+}
+
+header .stripes_alt {
+	display: grid;
+	grid: repeat(5, 125px) / repeat(10, 1fr);
+	position: absolute;
+	width: 100%;
+    min-height: 800px;
+    margin-top: -50px;
+    transform: skewY(-8deg);
+	transform-origin: 0;
+}
+
+
+header .stripes_alt .col {
+	grid-area: 6;
+	grid-column: span 12;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+
+header .stripes_alt canvas {
+	height: 100%;
+}
+
+/* Newsletter Section */
+
+.newsletter {
+    background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0068b0, #72edff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.sign-box {
+    background-color: #fff;
+}
+
+/*Service Blocks*/
+
+i.icon-2x {
+  font-size: 30px;
+}
+
+.color-light{
+    color:#FFFFFF;
+}
+
+/*Colored Content Boxes
+------------------------------------*/
+.servive-block {
+  padding: 20px 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.servive-block:hover {
+     background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0068b0, #72edff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.servive-block p,
+.servive-block h2 {
+  color: #fff;
+}
+
+.servive-block h2 a:hover{
+  text-decoration: none;
+}
+
+.servive-block-light,
+.servive-block-default {
+  background: #fafafa;
+  border: solid 1px #eee; 
+}
+
+.servive-block-default:hover {
+  box-shadow: 0 0 8px #eee;
+}
+
+.servive-block-light p,
+.servive-block-light h2,
+.servive-block-default p,
+.servive-block-default h2 {
+  color: #555;
+}
+
+.servive-block-u {
+  background: #72c02c;
+}
+.servive-block-blue {
+  background: #3498db;
+}
+.servive-block-red {
+  background: #e74c3c;
+}
+.servive-block-sea {
+  background: #1abc9c;
+}
+.servive-block-grey {
+  background-image: url(image/webdesign04.jpg);
+}
+
+.servive-block-yellow {
+  background-image: url(image/webdev02.jpg);
+}
+.servive-block-orange {
+  background: #e67e22;
+}
+.servive-block-green {
+  background: #2ecc71;
+}
+.servive-block-purple {
+  background-image: url(image/graphdes03.jpg);
+}
+.servive-block-aqua {
+  background: #27d7e7;
+}
+.servive-block-brown {
+  background: #9c8061;
+}
+.servive-block-dark-blue {
+  background-image: url(image/care02.jpg);
+}
+.servive-block-light-green {
+  background: #79d5b3;
+}
+.servive-block-dark {
+  background: #555;
+}
+.servive-block-light {
+  background: #ecf0f1;
 }
